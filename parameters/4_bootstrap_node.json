@@ -1,0 +1,50 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "procloud-w2rch"
+    },
+    {
+      "ParameterKey": "RhcosAmi", 
+      "ParameterValue": "ami-03a62ff08dac1237e"
+    },
+    {
+      "ParameterKey": "AllowedBootstrapSshCidr", 
+      "ParameterValue": "0.0.0.0/0" 
+    },
+    {
+      "ParameterKey": "PublicSubnet", 
+      "ParameterValue": "subnet-07f38d75b24f1ff7f"
+    },
+    {
+      "ParameterKey": "MasterSecurityGroupId", 
+      "ParameterValue": "sg-0a46dbe891837988c"
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-037379622e3a38153"
+    },
+    {
+      "ParameterKey": "BootstrapIgnitionLocation", 
+      "ParameterValue": "s3://ocp-cn-northwest-1/ocp-w2rch/bootstrap.ign"
+    },
+    {
+      "ParameterKey": "AutoRegisterELB", 
+      "ParameterValue": "yes" 
+    },
+    {
+      "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+      "ParameterValue": "arn:aws-cn:lambda:cn-northwest-1:961163908085:function:ocp-elb-dns-RegisterNlbIpTargets-N8KR4TTPX6UK"
+    },
+    {
+      "ParameterKey": "ExternalApiTargetGroupArn", 
+      "ParameterValue": "arn:aws-cn:elasticloadbalancing:cn-northwest-1:961163908085:targetgroup/ocp-Exter-TSYJUKBLVJL9/9505f64582b08e9b"
+    },
+    {
+      "ParameterKey": "InternalApiTargetGroupArn", 
+      "ParameterValue": "arn:aws-cn:elasticloadbalancing:cn-northwest-1:961163908085:targetgroup/ocp-Inter-1TK6SZMFL6FAH/a09f3d1922b2f3a6"
+    },
+    {
+      "ParameterKey": "InternalServiceTargetGroupArn", 
+      "ParameterValue": "arn:aws-cn:elasticloadbalancing:cn-northwest-1:961163908085:targetgroup/ocp-Inter-1QH64KY63I4JE/dddaee3dce41f325"
+    }
+]

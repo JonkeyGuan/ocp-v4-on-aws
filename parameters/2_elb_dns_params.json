@@ -1,0 +1,30 @@
+[
+    {
+      "ParameterKey": "ClusterName", 
+      "ParameterValue": "procloud"
+    },
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "procloud-w2rch"
+    },
+    {
+      "ParameterKey": "HostedZoneId", 
+      "ParameterValue": "Z09819653O0UB2HYA1CTA"
+    },
+    {
+      "ParameterKey": "HostedZoneName", 
+      "ParameterValue": "greeyun.com"
+    },
+    {
+      "ParameterKey": "PublicSubnets", 
+      "ParameterValue": "subnet-07f38d75b24f1ff7f,subnet-07b2154fb9b7b5305,subnet-0c1b78206dde83938"
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-08ff7af5c706db923,subnet-0bc19ae6bd58f50be,subnet-091f03fbc0d7d7910"
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-037379622e3a38153"
+    }
+  ]

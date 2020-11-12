@@ -1,0 +1,19 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "procloud-w2rch"
+    },
+    {
+      "ParameterKey": "VpcCidr", 
+      "ParameterValue": "10.7.88.0/23"
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-08ff7af5c706db923,subnet-0bc19ae6bd58f50be,subnet-091f03fbc0d7d7910"
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-037379622e3a38153"
+    }
+  ]
+

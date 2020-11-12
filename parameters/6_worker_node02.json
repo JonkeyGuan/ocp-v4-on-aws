@@ -1,0 +1,34 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "procloud-w2rch"
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "ami-03a62ff08dac1237e" 
+  },
+  {
+    "ParameterKey": "Subnet", 
+    "ParameterValue": "subnet-0bc19ae6bd58f50be"
+  },
+  {
+    "ParameterKey": "WorkerSecurityGroupId", 
+    "ParameterValue": "sg-0e52a0401261ee27e"
+  },
+  {
+    "ParameterKey": "IgnitionLocation", 
+    "ParameterValue": "https://api-int.ocp.example.com:22623/config/worker"
+  },
+  {
+    "ParameterKey": "CertificateAuthorities", 
+    "ParameterValue": "data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTixxxJUSUZJQ0FURS0tLS0tCk1JxxxRFRENDQWZpZ0F3SUJBZ0lJT3QyVms2ZytMbWd3RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEl3TVRFd05qRXlNamd5TjFvWApEVE13TVRFd05ERXlNamd5TjFvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvMENlSzJHdUx2dmIKYTU1azMzcDRUM2lSVGNxVXpXZzhRcnhiNmdEK3pUOFFlaFMyOVBvcWRmZzR4a2tQdWo3NC9sV1hFZVFUcTN3QwpKbVc1eFJPZUdjT083QXprMFF6dG9qdU9kaUdRWE5kUDIvUU1ObEJYVDY4dmpZbXovWHQ4cjVjV1BJNEJLWkhDCnlrUzhTVk9Mb25aUklIYVdkU2RyY0hNUW55NytzOXg2d3NsYytQK01GekRzRG01Q0U1MnluODgxbU5lQi9GYXMKejVoMHdIU2lZbDdTdmpBbERFbzZFR2xhdzNQWnRURnpLTDZiUDF0ZFl3SmcyRDE0WjI2VVM2OVlYQkppR3pSTQpQYk42emtEa05qWlkyRXM4WGRIMmdvV2JnemtCK3U5cmU3RzFPRllQSDlUdTFIeXN0WC9YdVhTVE5jYmszUE1VClZzd3E0NjNwNHdJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXVlR1hkOXpRTGhseW9kNEUrcWUyeVRTMGNUSXdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUEvcEtqcWFPVzVyckYvTUprcUJ5c1Blc3hQSHlVNnJhUW84WktGNmpKbkZqVmk2bDBWYzdBU0NqTHZvCm1rT2JPSmhacW1YTU1PMWFLd2ZMajNPbCtPRE8yMXQrS0ZNN09CTVA1aXBrZEVjOGFZd0VpTVVKa20wUUZTNHMKNXhIUHdOMjc1NmZwSlFSMTlQeklmQ3BDTGQzL0NvUFN5N28wWWhGTzlKenRKdk9YR01KTzdzSk1hVmdCKy9WMAphUW9tSEdhT2gzcStQbEVBdFlDZUJQcGRTeUdMOXRHN2hZalNDWXpKaE9nTWpJRDFOV29CZGF5TFludmw3T3lrCkJqNE5UUzAwZ2dxSzBRQU9ROGpjQm1ITFJUVE9xTTZ2UUNFWjB6RVV5cDBEY0dBRXFkK24zRUdVT1BlT2lOUWkKdXhnQlVtZDMzTDVsdmdxbm5BL2NpajZPM0JjPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+  },
+  {
+    "ParameterKey": "WorkerInstanceProfileName", 
+    "ParameterValue": "ocp-sg-WorkerInstanceProfile-6WUVBMNOMAQE"
+  },
+  {
+    "ParameterKey": "WorkerInstanceType", 
+    "ParameterValue": "m5.xlarge"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "Comment": "create wildcard record set for *.apps.procloud.greeyun.com",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "*.apps.procloud.greeyun.com",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "ZM7IZAIOVVDZF",
+          "DNSName": "a1937236fc4574a4ea253d9505e188d6-443629687.cn-northwest-1.elb.amazonaws.com.cn",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
